@@ -83,11 +83,7 @@ public class MessageDAO {
     }
 
 
-
-
-
-
-
+    
     // Deletes a message by ID and returns the deleted message
     public Message deleteMessage(int id) {
         Message msg = getMessageById(id); 
@@ -104,8 +100,6 @@ public class MessageDAO {
         }
         return null; // Return null if message does not exist or deletion fails
     }
-
-
 
 
 
@@ -126,7 +120,6 @@ public class MessageDAO {
         }
         return null; // Return null if update failed
     }
-
 
 
 

@@ -30,12 +30,6 @@ public class AccountDAO {
     }
 
 
-
-
-
-
-
-
     // Method to retrieve an account using credentialss
     public Account getAccountByUsernameAndPassword(String username, String password) {
         try (Connection conn = ConnectionUtil.getConnection()) {
@@ -61,9 +55,6 @@ public class AccountDAO {
         return null; 
         // Return null if no matching account is found
     }
-
-
-
 
 
 
